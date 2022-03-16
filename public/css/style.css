@@ -1,0 +1,62 @@
+body{
+  background-color: #e7e7e7;
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  background-color: #fff;
+  width: 14px
+}
+
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track:hover {
+  border-radius: 10px;
+  background-color: #f4f4f4
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 16px;
+  border: 5px solid #fff
+}
+
+.imagensparafoto{
+  width: 400px; 
+  height: 300px; 
+  border: solid 10px black;
+}
+
+.sessao{
+  position: absolute;
+  margin-top: -3%;
+  margin-left: 10%;
+}
+
+.quantmens{
+  margin-top: 0%;
+  margin-right: 0%;
+  left: 0;
+  right: 0;
+}
+
+.tabs-content.carousel { height:1190px; overflow-y: visible; } 
+.tabs-content.carousel .carousel-item { width: 100%; height: 100%; }
+
+.tabs .indicator{
+  background-color:white;
+}
+
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 10%;
+  left:33.8%;  
+}
+
+.pagination > li.active > a, .pagination > li.active > span{background-color:#039be5;}
